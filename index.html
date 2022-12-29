@@ -5,57 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit-markup-hw-02</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header>
       <nav>
-        <a href="#">WebStudio</a>
-        <ul>
-          <li><a href="index.html">Estudio</a></li>
-          <li><a href="portafolio.html">Portafolio</a></li>
-          <li><a href="#">Contactos</a></li>
+        <a class="link-button webstudio-up" href="#">WebStudio</a>
+        <ul class="menu-nav">
+          <li>
+            <a class="link-button studio-nav" href="index.html">Estudio</a>
+          </li>
+          <li>
+            <a class="link-button briefcase-nav" href="portafolio.html"
+              >Portafolio</a
+            >
+          </li>
+          <li><a class="link-button contacts-nav" href="#">Contactos</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+525555296000">+525555296000</a></li>
+        <li>
+          <a class="link-button email-position" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="link-button tel-position" href="tel:+525555296000"
+            >+525555296000</a
+          >
+        </li>
       </ul>
     </header>
     <main>
-      <section>
-        <h1>soluciones eficaces para su negocio</h1>
-        <button type="button">Solicite nuestro servicio</button>
+      <section class="background">
+        <h1>Soluciones eficaces para su negocio</h1>
+        <button class="link-button service" type="button">
+          Solicite nuestro servicio
+        </button>
       </section>
 
       <section>
-        <h2 hidden>características</h2>
+        <h2 hidden>Características</h2>
         <ul>
           <li>
-            <h3>atención a los detalles</h3>
-            <p>
+            <h3 class="details">Atención a los detalles</h3>
+            <p class="text-details">
               Nos adentramos en todos los detalles y procesos de su negocio,
               para así desarrollar una solución a su medida.
             </p>
           </li>
           <li>
-            <h3>puntualidad</h3>
-            <p>
+            <h3 class="puntuality">Puntualidad</h3>
+            <p class="text-puntuality">
               Con nosotros, usted puede sentirse seguro y protegido. Un
               principio importante de la empresa: respetar su tiempo y respetar
               los plazos acordados.
             </p>
           </li>
           <li>
-            <h3>planificación</h3>
-            <p>
+            <h3 class="planning">Planificación</h3>
+            <p class="text-planning">
               Usted podrá observar y participar en cada fase del desarrollo y
               aplicación de soluciones
             </p>
           </li>
           <li>
-            <h3>tecnología moderna</h3>
-            <p>
+            <h3 class="technology">Tecnología moderna</h3>
+            <p class="text-technology">
               Usamos herramientas innovadoras para resolver las tareas
               asignadas. Es hora de simplificar los procesos laborales.
             </p>
@@ -93,7 +114,7 @@
         </ul>
       </section>
       <section>
-        <h2>Nuestro Equipo</h2>
+        <h2 class="equipo">Nuestro Equipo</h2>
         <ul>
           <li>
             <img src="images/andrescubo.jpg" alt="Andrés Cubo" width="200" />
@@ -128,19 +149,21 @@
       </section>
     </main>
     <footer>
-      <a href="">WebStudio</a>
+      <a class="link-button" href="">WebStudio</a>
       <address>
         <ul>
           <li>
-            <a href="https://goo.gl/maps/ntQ56XA3maYyzvu46"
+            <a class="link-button" href="https://goo.gl/maps/ntQ56XA3maYyzvu46"
               >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link-button" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+525555296000">+525555296000</a>
+            <a class="link-button" href="tel:+525555296000">+525555296000</a>
           </li>
         </ul>
       </address>
