@@ -1,301 +1,194 @@
-.webstudio-up {
+:root {
+  --color-uno: #757575;
+  --color-dos: #212121;
+  --color-tres: #ffffff;
+  --color-webstudio: #2196f3;
+  --color-service: #188ce8;
+  --color-background: #2f303a;
+  --color-info-down: rgba(255, 255, 255, 0.6);
+}
 
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  text-decoration: none;
-
-  /* identical to box height */
-
-  text-align: right;
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
+  color: var(--color-uno);
+}
 
-  color: #2196f3;
+/*header*/
+
+.webstudio-up {
+  font-family: 'Raleway';
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  color: var(--color-webstudio);
 }
 
 .menu-nav {
+  color: var(--color-dos);
+}
+
+.info-up {
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
   letter-spacing: 0.02em;
-
-  color: #212121;
-}
-.studio-nav {
-  text-decoration: none;
+  line-height: 1.14;
 }
 
-.briefcase-nav {
-  text-decoration: none;
-}
-.contacts-nav {
-  text-decoration: none;
-}
-ul {
+.list-style {
   list-style-type: none;
 }
 
-.email-position {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #2196f3;
-  list-style-type: none;
+.email-tel-up {
+  color: var(--color-uno);
   text-decoration: none;
 }
-.tel-position {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
 
-  color: #757575;
-
-  list-style-type: none;
-  text-decoration: none;
-}
-body {
-  font-family: Roboto, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-
-.filtros{
- 
-}
-
-.todo{
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-  
-    text-align: center;
-    letter-spacing: 0.03em;
-  
-    color: #FFFFFF;
-    background: #2196F3;
-      /* shadow-middle */
-    outline: #2196F3;
-      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-      border-radius: 4px;
-      
-}
-
-.sitios{
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-  
-    text-align: center;
-    letter-spacing: 0.03em;
-  
-    color: #212121;
-    background: #F5F4FA;
-      border-radius: 4px;
-      box-shadow: none;
-}
-
-.apps{
-font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-  background: #F5F4FA;
-    border-radius: 4px;
-}
-
-.design{
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-  
-    text-align: center;
-    letter-spacing: 0.03em;
-  
-    color: #212121;
-    background: #F5F4FA;
-      border-radius: 4px;
-}
-
-.marketing{
-    font-family: 'Roboto';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 26px;
-      /* identical to box height, or 162% */
-    
-      text-align: center;
-      letter-spacing: 0.03em;
-    
-      color: #212121;
-      background: #F5F4FA;
-        border-radius: 4px;
-}
-
-h1 {
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 900;
+/*Titulo */
+.tittle {
   font-size: 44px;
-  line-height: 60px;
-  /* or 136% */
-
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: var(--color-tres);
+}
 
-  color: #ffffff;
+.bg-title {
+  font-family: 'Roboto';
+  background: var(--color-background);
 }
-.tittle{
-  background: #2F303A;
-}
+
+/*Boton Servicio*/
 .service {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 30px;
-  color: #FFFFFF;
-  background: #188CE8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+  line-height: 1.86;
+  color: var(--color-tres);
+  background: var(--color-service);
+  border-radius: 4px;
 }
 
-
-h3{
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-  
-    
-    letter-spacing: 0.03em;
-  
-    color: #212121;
+/* a que nos dedicamos */
+.dedicamos-team {
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  color: var(--color-dos);
 }
-p{
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-  
-    
-    letter-spacing: 0.03em;
-  
-    color: #757575;
+.caracteristicas {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-dos);
+}
+.habilidades {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-uno);
 }
 
+/* Nuestro equipo de trabajo*/
 
-.link-button:hover,:focus{
-  color: orange;
-  cursor: pointer;
- 
+.colaboradores {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--color-dos);
 }
-.link-button{
+.profesion {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--color-uno);
+}
+
+/* Filtros proyectos */
+.filtros {
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--color-dos);
+}
+
+.todo-but {
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--color-dos);
   border-style: none;
+  text-decoration: none;
+}
+.todo-but:hover,
+:focus {
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--color-tres);
+  background: var(--color-webstudio);
+  border-style: none;
+  text-decoration: none;
 }
 
+/* proyectos portafolio*/
+.name-project {
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-dos);
+}
 
+.type-project {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--color-uno);
+}
+
+/*Footer*/
 
 .webstudio-down {
   font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
-  
-    letter-spacing: 0.03em;
-  
-    color: #2196F3;
-    text-decoration: none
- 
-}
-.bg-footer{
-  background: #2F303A;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-webstudio);
+  text-decoration: none;
 }
 
-.adress-down {
+.bg-footer {
+  background: var(--color-background);
+}
+
+.info {
   font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-  
-    letter-spacing: 0.03em;
-  
-    color: #FFFFFF;
-  text-decoration: none
-
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.address {
+  color: var(--color-tres);
 }
 
-.mail-footer {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-  
-    letter-spacing: 0.03em;
-  
-    color: rgba(255, 255, 255, 0.6);
-    
+.mail-tel-down {
+  color: var(--color-info-down);
 }
-.tel-footer {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-  
-    letter-spacing: 0.03em;
-  
-    color: rgba(255, 255, 255, 0.6);
 
-    
+/**/
+
+.link-button:hover,
+:focus {
+  color: var(--color-webstudio);
+  cursor: pointer;
 }
-a{
+
+.link-button {
+  border-style: none;
   text-decoration: none;
 }
