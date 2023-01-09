@@ -14,6 +14,8 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   color: var(--color-uno);
+  background-color: var(--color-tres);
+  letter-spacing: 0.03em;
 }
 
 /*header*/
@@ -43,9 +45,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-dos);
   font-weight: 500;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: var(--color-dos);
 }
 
 .link-menu:hover,
@@ -67,7 +66,11 @@ body {
   color: var(--color-dos);
 }
 
-a {
+.link-menu {
+    text-decoration: none;
+  }
+
+.link-menu-studio {
   text-decoration: none;
 }
 
@@ -79,17 +82,16 @@ a {
 .tittle {
   font-weight: 900;
   font-size: 44px;
+  font-style: normal;
+    line-height: 1.3;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-tres);
 }
 
 .solutions {
   background: var(--color-background);
-    font-style: normal;
-    font-size: 44px;
-    line-height: 1.3;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--color-tres);
+  text-align: center;
 }
 
 /*Boton Servicio*/
@@ -214,6 +216,14 @@ background-color: var(--color-webstudio);
   font-weight: 700;
 }
 
+.text-p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    color:var(--color-uno);
+}
+
 .link-menu.current{
   color: var(--color-webstudio);
 }
@@ -244,3 +254,7 @@ background-color: var(--color-webstudio);
   color: var(--color-webstudio);
   cursor: pointer;
 }
+
+.link-button{
+      text-decoration: none;
+    }
